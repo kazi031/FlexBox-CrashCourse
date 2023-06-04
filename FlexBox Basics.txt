@@ -1,0 +1,31 @@
+CSS Grid - Overall Layout
+Flexbox - Inner Elements
+
+Flex Containers and Flex Items:
+    The flex container is the element that holds flex items.
+    Flex items are direct children of flex containers. A container
+    is created with display:flex
+
+* Flex-direction:column - Up and down
+* Flex-direction:row - Right to left
+
+* .item*3{Item $}
+shortcut for 
+-   <div class="item">Item 1</div>
+    <div class="item">Item 2</div>
+    <div class="item">Item 3</div>
+
+* => Universal Selector
+
+*Before there was flex float was used.
+
+justify-content: start/center/end/
+space-around/space-between;
+
+vertically move row:
+align-items-start/center/end
+
+=> flex-wrap: wrap; makes things responsive
+=> "order" can be used to order the elements properly
+
+<img src="image.png" alt=""/>
